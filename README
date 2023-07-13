@@ -1,0 +1,30 @@
+How to compile this kernel?
+
+git clone 
+open the terminal in the root directory of the kernel source 
+cp config .config
+make -j9 (if using playstation 4 linux to compile kernel source)
+If the terminal asks 'Initialize kernel stack variables at function entry' select 'option 1'
+Compiling process should begin
+bzImage is located at 'arch/x86/boot/bzImage' when compiling process completes
+
+Download Link to bzImage compiled: https://mega.nz/file/SEM1gBTA#fogaTrOeCQ0gb3K7NkNP51nlsj-8S54ye5CZK53Hibc
+
+Linux kernel
+============
+
+There are several guides for kernel developers and users. These guides can
+be rendered in a number of formats, like HTML and PDF. Please read
+Documentation/admin-guide/README.rst first.
+
+In order to build the documentation, use ``make htmldocs`` or
+``make pdfdocs``.  The formatted documentation can also be read online at:
+
+    https://www.kernel.org/doc/html/latest/
+
+There are various text files in the Documentation/ subdirectory,
+several of them using the Restructured Text markup notation.
+
+Please read the Documentation/process/changes.rst file, as it contains the
+requirements for building and running the kernel, and information about
+the problems which may result by upgrading your kernel.
