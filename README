@@ -1,6 +1,6 @@
 How to compile this kernel?
 
-git clone 
+git clone https://github.com/DFAUS-git/ps4-linux-kernel-5.4.99-baikal
 open the terminal in the root directory of the kernel source 
 cp config .config
 make -j9 (if using playstation 4 linux to compile kernel source)
